@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<head th:fragment="head" >
+  <link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+  <!--    <link th:href="@{/css/styles.css}"/>-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Cleveland News</title>
+</head>
+<!--to add the navbar to a page, change the body element to be:
+<body id="page-container">
+and then underneath the body tag before any other elements add:
+<div th:replace="fragments:: navbar"></div>
+-->
+<body>
+<div th:fragment="navbar" class="">
+  <div>
+    <div id="navbar">
+      <div class="upperLevelNav">
+        <h1 id="CompanyName">Pawfect Harmony Adoptions</h1>
+
+        <a th:href="@{/}"                   type="button" class="btn btn-info">Home</a>
+        <a th:href="@{/stocks}"             type="button" class="btn btn-info">Stocks</a>
+        <a th:href="@{/articles}"           type="button" class="btn btn-info">Articles</a>
+        <a th:href="@{/weather}"            type="button" class="btn btn-info">Weather</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<!--to add the footer to a page, add
+<footer>
+    <div th:replace="fragments:: footer"></div>
+    <div id="margin-footer"></div>
+</footer>
+underneath the closing body tag.
+-->
+<body>
+<div th:fragment="footer" class="">
+  <div class="container-fluid">
+    <footer id="footer">
+      <div class="footer-functions" >
+        <ul class="footer-buttons" >
+          <a th:href="@{/contactadmin}"   type="button" class="btn btn-info" >Contact Admin</a>
+          <a th:href="@{/aboutus}"        type="button" class="btn btn-info" >About Us</a>
+          <a th:href="@{/termsofservice}" type="button" class="btn btn-info" >Terms of Service</a>
+          <a th:href="@{/privacypolicy}"  type="button" class="btn btn-info" >Privacy Policy</a>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</div>
+
+</body>
+</html>
