@@ -7,16 +7,16 @@ import org.springframework.web.bind.annotation.GetMapping;
     @Controller
     public class FooterController {
         @GetMapping("/termsofservice")
-        public String termsofservice(){ return "/footerPages/termsofservice"; }
+        public String termsofservice(){ return "termsofservice"; }
 
         @GetMapping("/aboutus")
-        public String aboutus(){ return "/footerPages/aboutus"; }
+        public String aboutus(){ return "aboutus"; }
 
         @GetMapping("/contactadmin")
-        public String contactadmin(){ return "/footerPages/contactadmin"; }
+        public String contactadmin(){ return "contactadmin"; }
 
         @GetMapping("/privacypolicy")
-        public String privacypolicy(){ return "/footerPages/privacypolicy"; }
+        public String privacypolicy(){ return "privacypolicy"; }
 
     }
 

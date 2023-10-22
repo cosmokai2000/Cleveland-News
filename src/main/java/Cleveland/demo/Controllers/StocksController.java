@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class StocksController {
    @GetMapping ("/stocks")
-    public String index() {
-        return "stocks.html";
+    public String stocks() {
+        return "stocks";
     }
 }

@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org/">
+<!--Add
+<head th:replace="fragments:: header">
+</head>
+to each page to utilize bootstrap for that page, must be the first stylesheet-->
+<head th:fragment="header"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></head>
+
 <!--to add the navbar to a page, change the body element to be:
 <body id="page-container">
 and then underneath the body tag before any other elements add:
@@ -21,6 +27,7 @@ and then underneath the body tag before any other elements add:
   </div>
 </div>
 </body>
+
 <!--to add the footer to a page, add
 <footer>
     <div th:replace="fragments:: footer"></div>

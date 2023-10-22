@@ -6759,6 +6759,7 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
 /*
 //All styles below this line are custom
 //All styles below this line are custom
@@ -6774,28 +6775,6 @@ button.close {
   background-color:#2890CC;
   padding:10px;
   color: white;
-}
-
-#CompanyName {
-    font-family: 'Poppins', sans-serif !important;
-    margin: 20px 40px 20px 10px;
-}
-
-.welcome{
-    display: flex;
-    justify-content: center;
-    margin: 3% 10% 2%;
-}
-
-#blurb{
-    display: flex;
-    justify-content: center;
-    margin: 2% 10%;
-}
-
-.imgContainer{
-    display: flex;
-    justify-content: space-around;
 }
 
 #footer {
