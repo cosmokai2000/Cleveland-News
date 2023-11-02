@@ -6767,7 +6767,6 @@ button.close {
 */
 
 #navbar {
-  font-family: 'Poppins', sans-serif !important;
   position: relative;
   top: 0;
   width: 100%;
@@ -6785,6 +6784,7 @@ button.close {
   background-color:#2890CC;
   padding:10px;
 }
+
 #margin-navbar {
     margin-top: 100px;
 }

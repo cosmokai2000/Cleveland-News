@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org/">
-<head th:replace="fragments:: header"></head>
-<body id="page-container">
-<div th:replace="fragments:: navbar"></div>
-<div>
-  <h1>This is the about us page</h1>
-</div>
+  <head th:replace="fragments:: header"></head>
 
-</body>
-<footer>
-  <div id="margin-footer"></div>
-  <div th:replace="fragments:: footer"></div>
-</footer>
+    <body id="page-container">
+      <div th:replace="fragments:: navbar"></div>
+      <div>
+        <h1>This is the about us page</h1>
+      </div>
+      <footer>
+        <div th:replace="fragments:: footer"></div>
+        <div id="margin-footer"></div>
+      </footer>
+  </body>
+
 </html>
