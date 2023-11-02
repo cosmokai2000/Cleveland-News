@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 *{
-    font-family: 'Poppins', sans-serif !important;
+
 }
 html {
   -webkit-text-size-adjust: 100%;
@@ -13,10 +13,8 @@ html {
 }
 body {
   margin: 0;
-  background-color: rgb(204,100,40);
-  /*background-color: rgb(204, 85, 0);*/
-  /*background-color: rgb(235, 161, 52);*/
-  color: white !important;
+
+
 }
 article,
 aside,
@@ -6807,5 +6805,6 @@ button.close {
     float: right;
     clear: right;
 }
+
 
 
